@@ -1,34 +1,28 @@
 # Ricardo Cuellar
 
-Computer Science student at the University of Guelph building practical software with Python, SQL, web technologies, systems languages, and local AI tools.
+Computer Science co-op student at the University of Guelph. I build Python and web applications, with an interest in backend development, data, and testing.
 
-## Current projects
+## Selected Projects
 
-- A local-first Python platform for strategy research, backtesting, and paper-trading workflows.
-- A FastAPI and SQLite control center for local AI projects, models, roles, workflows, and audit records.
-- Responsive web prototypes focused on clear information architecture and useful interfaces.
+### Trading Research Dashboard
 
-## Technical toolkit
+**Python, Flask, pandas, JavaScript**
 
-**Core languages:** Python, SQL, HTML, CSS  
-**Foundational languages:** C, C++, JavaScript, Rust, COBOL  
-**Frameworks and data:** Flask, FastAPI, Pydantic, pandas, Matplotlib  
-**Engineering:** REST APIs, relational databases, Git/GitHub, Linux, Apache/WSGI, MariaDB, SQLite, automated testing, debugging, and documentation
+A local research tool for comparing rule-based strategies on historical market data. The Flask API validates inputs, runs a simulation, and saves results for later inspection. The dashboard shows returns, drawdown, and completed trades so a single headline number doesn't hide what happened.
 
-## Current focus
+It is a backtesting project, not a live trading system. Order timing and transaction-cost assumptions affect how to interpret the results.
 
-- Strengthening computer science fundamentals at the University of Guelph.
-- Building deeper systems-programming knowledge through C, C++, Rust, and COBOL practice.
-- Improving testing, documentation, and release practices across my projects.
-- Looking for summer, co-op, QA, data, technical support, automation, and junior software opportunities.
+### Lumen Study Workspace
 
-## Background
+**React, Express, SQLite, Python**
 
-Before university, I worked in automotive manufacturing at Flex-N-Gate and F&P Manufacturing. That experience taught me to respect process, communicate clearly, work safely, and stay dependable when the pace is high. I communicate in English and Spanish.
+A local study app that turns imported notes into practice activities and keeps a record of progress. Express validates requests, SQLite stores the study material and practice history, and a local model can generate explanations with references to the imported sources. A matching citation doesn't guarantee that an explanation is correct.
 
-## Connect
+The source repositories are private. I can walk through the applications and explain the implementation in an interview.
 
-- [LinkedIn](https://www.linkedin.com/in/ricardo-cuellar-56838b387/)
-- Email: rcuellar@uoguelph.ca
+## Campus Experience
 
-Project repositories will be linked here only after each one has been reviewed for secrets, private data, licensing, documentation, and a reproducible setup path.
+- **University of Guelph Robotics Team:** Contribute to Python/NiceGUI base-station work involving simulated ROS 2 telemetry and how the interface reports stale or invalid data.
+- **University of Guelph Digital Music Computer/Keyboard Lab Monitor:** Provide scheduled lab coverage and refer equipment or access issues to staff.
+
+[LinkedIn](https://www.linkedin.com/in/ricardo-cuellar-56838b387/) | [Guelph email](mailto:rcuellar@uoguelph.ca)
