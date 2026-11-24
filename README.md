@@ -1,6 +1,6 @@
 # Ricardo Cuellar
 
-Computer Science co-op student at the University of Guelph. I build Python and web applications, with an interest in backend development, data, and testing.
+I'm a Computer Science co-op student at the University of Guelph. I build Python APIs, data dashboards, and web apps, and I'm interested in software that makes it easy to trace a result or reproduce a bug.
 
 ## Selected Projects
 
@@ -18,7 +18,19 @@ It is a backtesting project, not a live trading system. Order timing and transac
 
 A local study app that turns imported notes into practice activities and keeps a record of progress. Express validates requests, SQLite stores the study material and practice history, and a local model can generate explanations with references to the imported sources. A matching citation doesn't guarantee that an explanation is correct.
 
-The source repositories are private. I can walk through the applications and explain the implementation in an interview.
+### FastAPI Approval and Audit Prototype
+
+**Python, FastAPI, Pydantic, SQLite**
+
+A local backend prototype that records specific action approvals and maintains an audit trail. I added regression tests for expired approvals and credential handling. It is a prototype, not a production security product.
+
+### Critter Factory
+
+**Luau, Roblox Studio**
+
+A gameplay prototype with client/server progression and worker assignments. I used it to explore which actions should be validated on the server before updating player state.
+
+The source repositories are private. I can walk through the projects and explain my contributions in an interview.
 
 ## Campus Experience
 
